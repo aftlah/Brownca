@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/logo.jpg" type="image/x-icon">
+    <meta name="description" content="Brownca adalah usaha yang berdiri dalam pembuatan brownies kukus lembut, tersedia
+        dalam dua pilihan ukuran: 250 gram dan 350 gram. Kami menawarkan berbagai pilihan topping
+        lezat seperti keju, choco chips, dan irisan kacang almond, yang dapat dipilih sesuka kalian." />
+    <title>BROWNCA</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="min-h-screen">
+        <header class="navbar">
+            <div class="navbar-container">
+                <a href="/">
+                    <img src="./assets/images/logo.png" alt="logo brand" class="navbar-logo">
+                </a>
+                <nav class="navbar-links">
+                    <a href="#category" class="navbar-link">Category</a>
+                    <a href="#menu" class="navbar-link">Menu</a>
+                    <a href="#about" class="navbar-link">About Us</a>
+                </nav>
+                <button id="menuButton" class="navbar-menu-button">
+                    <i class="fa-solid fa-bars fa-lg"></i>
+                </button>
+            </div>
+            <nav id="mobileMenu" class="hidden navbar-mobile-menu">
+                <a href="#category" class="navbar-link">Category</a>
+                <a href="#menu" class="navbar-link">Menu</a>
+                <a href="#about" class="navbar-link">About Us</a>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <img src="./assets/images/banner.webp" alt="banner" class="hero-banner">
+            <div class="hero-content">
+                <h1 class="hero-title">Bronwca</h1>
+                <p class="hero-description">Rasakan Kelembutan Brownies Kukus Dengan Topping Menggoda</p>
+                <p class="hero-description-1">Pre-order mulai dari hari Sabtu-Kamis <br> Hari Jum'at Siap Dikirim</p>
+                <a href="#menu" class="hero-button">Lihat Menu</a>
+            </div>
+        </section>
+
+        <section id="category" class="category-section">
+            <div class="category-container">
+                <h2 class="section-title">Category</h2>
+                <div class="category-grid" id="listCategories"></div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="menu-container">
+                <h2 class="section-title">Menu</h2>
+                <ul class="menu-size-list" id="product-categories">
+                    <li class="menu-size-link" data-key="all">Show All</li>
+                    <li class="menu-size-link" data-key="250">250 Gram</li>
+                    <li class="menu-size-link" data-key="350">350 Gram</li>
+                </ul>
+                <div class="menu-grid" id="product-grid"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <img src="./assets/images/logo.png" alt="logo" class="about-logo">
+                <div class="about-content">
+                    <h2 class="about-title">About Us</h2>
+                    <p class="about-text">
+                        Brownca adalah usaha yang berdiri dalam pembuatan brownies kukus lembut, tersedia
+                        dalam dua pilihan ukuran: 250 gram dan 350 gram. Kami menawarkan berbagai pilihan topping
+                        lezat seperti keju, choco chips, dan irisan kacang almond, yang dapat dipilih sesuka kalian.
+                    </p>
+                    <p class="about-text">
+                        Brownca buka setiap hari Jumat, dan Anda dapat melakukan pre-order mulai dari Sabtu hingga
+                        Kamis. Jadi, pastikan untuk memesan terlebih dahulu agar tidak kehabisan. Ditunggu yaa pre order
+                        nya😁
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="https://wa.me/62895383124968" class="footer-link">
+                <i class="fa-brands fa-whatsapp fa-2xl"></i> +62 895 3831 24968
+            </a>
+            <p class="footer-address">
+                <i class="fa-solid fa-location-dot fa-2xl"></i> Jl. Duren Village, RT 01/RW 02, Pedurenan, Karang
+                Tengah.
+            </p>
+            <p class="footer-rights">© 2024 Brownca. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/constrant.js"></script>
+    <script src="assets/js/function.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

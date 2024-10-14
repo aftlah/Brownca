@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/logo.jpg" type="image/x-icon">
+    <meta name="description" content="Brownca adalah usaha yang berdiri dalam pembuatan brownies kukus lembut, tersedia
+        dalam dua pilihan ukuran: 250 gram dan 350 gram. Kami menawarkan berbagai pilihan topping
+        lezat seperti keju, choco chips, dan irisan kacang almond, yang dapat dipilih sesuka kalian." />
+    <title>BROWNCA</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="min-h-screen flex flex-col">
+        <header class="navbar">
+            <div class="navbar-container-detail-page">
+                <a href="/">
+                    <img src="./assets/images/logo.png" alt="logo brand" class="navbar-logo">
+                </a>
+                <nav class="navbar-links">
+                    <a href="/#category" class="navbar-link">Category</a>
+                    <a href="/#menu" class="navbar-link">Menu</a>
+                    <a href="/#about" class="navbar-link">About Us</a>
+                </nav>
+                <button id="menuButton" class="navbar-menu-button">
+                    <i class="fa-solid fa-bars fa-lg"></i>
+                </button>
+            </div>
+            <nav id="mobileMenu" class="hidden navbar-mobile-menu">
+                <a href="/#category" class="navbar-link">Category</a>
+                <a href="/#menu" class="navbar-link">Menu</a>
+                <a href="/#about" class="navbar-link">About Us</a>
+            </nav>
+        </header>
+
+        <div class="detail-page">
+            <main class="detail-product-container">
+                <div class="detail-product-img-group">
+                    <img class="image-product" src="" alt="" />
+                </div>
+                <div class="detail-product-details">
+                    <h1 class="detail-product-title"></h1>
+                    <p class="detail-product-price"></p>
+                    <div class="container-quantity-action">
+                        <button id="quantity-decrease">-</button>
+                        <p class="detail-product-quantity-display">0</p>
+                        <button id="quantity-increase">+</button>
+                    </div>
+                    <div class="wrap-btn-order">
+                        <button class="btn-order">PRE ORDER NOW</a>
+                    </div>
+                    <p class="detail-product-description-header">DETAILS</p>
+                    <p class="detail-product-description"></p>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <a href="https://wa.me/62895383124968" class="footer-link">
+                    <i class="fa-brands fa-whatsapp fa-2xl"></i> +62 895 3831 24968
+                </a>
+                <p class="footer-address">
+                    <i class="fa-solid fa-location-dot fa-2xl"></i> Jl. Duren Village, RT 01/RW 02, Pedurenan, Karang
+                    Tengah.
+                </p>
+                <p class="footer-rights">© 2024 Brownca. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/constrant.js"></script>
+    <script src="assets/js/function.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
