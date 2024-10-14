@@ -39,10 +39,8 @@ $(document).ready(function () {
         $('#product-grid').append(productItem);
     });
 
-    // set active category
     $('#product-categories li[data-key="all"]').addClass('text-primary-800');
 
-    // looping categories, in index.html
     $.each(categories, function (_, category) {
         const categoryItem = `
          <a href="${category.link}">                          

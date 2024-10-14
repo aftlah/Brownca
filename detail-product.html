@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="min-h-screen flex flex-col">
+    <div class="min-h-screen">
         <header class="navbar">
             <div class="navbar-container-detail-page">
                 <a href="/">
@@ -46,18 +46,22 @@
                     <img class="image-product" src="" alt="" />
                 </div>
                 <div class="detail-product-details">
-                    <h1 class="detail-product-title"></h1>
-                    <p class="detail-product-price"></p>
-                    <div class="container-quantity-action">
-                        <button id="quantity-decrease">-</button>
-                        <p class="detail-product-quantity-display">0</p>
-                        <button id="quantity-increase">+</button>
+                    <div>
+                        <h1 class="detail-product-title"></h1>
+                        <div class="detail-product-price-group">
+                        <p class="detail-product-price"></p>
+                        <div class="container-quantity-action">
+                            <button id="quantity-decrease">-</button>
+                            <p class="detail-product-quantity-display">0</p>
+                            <button id="quantity-increase">+</button>
+                        </div>
                     </div>
                     <div class="wrap-btn-order">
                         <button class="btn-order">PRE ORDER NOW</a>
+                        </div>
+                        <p class="detail-product-description-header">DETAILS</p>
+                        <p class="detail-product-description"></p>
                     </div>
-                    <p class="detail-product-description-header">DETAILS</p>
-                    <p class="detail-product-description"></p>
                 </div>
             </main>
 
